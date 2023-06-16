@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gloria Jeans Clone</title>
+    <link rel="stylesheet" href="babstyle.css">
+    <link rel="stylesheet" href="Gheader.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/29c732a5d4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header-top">
+        <div class="loyal">
+            &#9734; LOYALTY PROGRAM
+        </div>
+        <div class="state">
+            PAKISTAN
+        </div>
+    </div>
+    <header>
+        <div class="left-sec">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">OUR STORY</a></li>
+            </ul>
+        </div>
+        <button class="shop-btn">SHOP</button>
+        <div class="logo">
+            <img src="Pictures-used/logo_bde1e1c0-43e0-4f8d-8eeb-f43beaa31607_336x.png" alt="">
+        </div>
+        <div class="right-sec">
+            <ul>
+                <li><a href="#">LOCATION</a></li>
+                <li><a  href="#">OWN A FRANCHISE</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <div class="mx-2 ">
+                <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">SignUp</button>
+            </div>
+            <!-- <i class="fa-sharp fa-solid fa-location-dot"></i>
+            <img src="/icons/channels4_profile.jpg" alt=""> -->
+        </div>
+    </header>
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Gloria Jeans</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="/examples/actions/confirmation.php" method="post">
+                    <!-- <h2>Sign Up</h2> -->
+                    <p>Please fill in this form to create an account!</p>
+                    <hr>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
+                            <div class="col"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
+                        </div>        	
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
+                    </div>        
+                    <div class="form-group">
+                        <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-lg">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+          </div>
+        </div>
+</div>
+    <section class="sliders">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Pictures-used/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Pictures-used/2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Pictures-used/331529192_1269903880537825_3671529043718594131_n.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="quiz">
+        <div class="heading">
+            <h2>DISCOVER YOUR #FLAVOR FAMOUS FAVORITES</h2>
+        </div>
+        <div class="center">
+            <button class="quiz-btn">TAKE THE QUIZ</button>
+        </div>
+    </section>
+    <section class="quiz-2">
+        <div class="heading">
+            <h2 class="sign">SIGNATURE FLAVOR</h2>
+        </div>
+        <div>
+            <h4>Available in Store & Online</h4>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 ">
+                        <img src="Pictures-used/card1.jpeg" class="card-img-top , card-img" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">BLUEBERRY SUNRISE COFFEE</h5>
+                            <p class="card-text">
+                                Our Bluebery Sunrise flavored coffee has a fresh...
+                            </p>
+                            <p class="price">$15.99</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 ">
+                        <img src="Pictures-used/card2.jpeg" class="card-img-top, card-img" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">BUTTER TOFFEE COFFEE</h5>
+                            <p class="card-text">
+                                Our Butter Toffee flavored coffee has a creamy...
+                            </p>
+                            <p class="price">$15.99</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 ">
+                        <img src="Pictures-used/card3.jpeg" class="card-img-top, card-img" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">COCONUT CREAM COFFEE</h5>
+                            <p class="card-text">
+                                Our Coconut Cream flavored coffee has a creamy...
+                            </p>
+                            <p class="price">$15.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="shop-all-btn">
+        <button class="sp-all">SHOP ALL</button>
+    </div>
+    <section class="sec-3">
+        <div class="left">
+            <img src="Pictures-used/sec-img.jpeg" alt="">
+        </div>
+        <div class="right">
+            <h2 class="years">
+                GREAT COFFEE HAS BEEN OUR DRIVING PASSION FOR OVER FORTY YEARS.
+            </h2>
+            <hr
+                style="border-width: 4px;height: 2px;background-color: black; color: rgb(255, 255, 255); width:10%;text-align:left;margin-left:40px;">
+            <h6>
+                We are dedicated to handcrafting our best just for you. Vist us at one of our famous <span
+                    style="font-family: Montserrat; font-style: italic;">locations</span> today.
+            </h6>
+            <button class="find-store">FIND MY STORE</button>
+        </div>
+    </section>
+    <section class="quiz-2">
+        <div class="heading">
+            <h2 style="color: black; font-weight: 800;font-size: 40px;">Our Offerings</h2>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4 bg_image">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Pictures-used/a1.jpeg" class="card-img-top" alt="..." />
+                        <div class="card-img-overlay">
+                            <h2 class="card-title">Coffee beans</h2>
+                            <p class="card-text">we sourec our own100% Arabica Coffee beans. Design our own blends. Produce our own roasts</p>
+                            <button class="menu">SHOP NOW</button>
+                          </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Pictures-used/a2.jpeg" class="card-img-top" alt="..." />
+                        <div class="card-img-overlay">
+                            <h2 class="card-title">Coffee beans</h2>
+                            <p class="card-text">we sourec our own100% Arabica Coffee beans. Design our own blends. Produce our own roasts</p>
+                            <button class="menu">View Menu</button>
+                          </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Pictures-used/a3.jpeg" class="card-img-top" alt="..." />
+                        <div class="card-img-overlay text">
+                            <h2 class="card-title">Coffee beans</h2>
+                            <p class="card-text">we sourec our own100% Arabica Coffee beans. Design our own blends. Produce our own roasts</p>
+                            <button class="menu">View Menu</button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="sign-up-sec">
+        <div class="txt">
+            NEVER MISS A GOOD DEAL!<br>
+            SIGN UP FOR OUR NEWSLETTER!
+        </div>
+        <div class="join">
+            <div class="input-group mb-3 form">
+                <input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary " type="button" id="button-addon2"
+                    style="color: black; background-color: white; border: none;">JOIN </button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="logo-sec">
+            <img class="gloria-logo" src="Pictures-used/logo-footer_309x.png" alt="logo">
+            <p class="est">Est. 1970 Chicago, Illinois</p>
+            <h3>PAYMENT OPTIONS</h3>
+            <img class="payment" src="Pictures-used/payment.jpeg" alt="">
+        </div>
+        <div class="table-sec">
+            <table class="center-table">
+                <tr>
+                    <th>About</th>
+                    <th>Support</th>
+                </tr>
+                <tr>
+                    <td>Our Story</td>
+                    <td>Contact us</td>
+                </tr>
+                <tr>
+                    <td>Shop Coffee Online</td>
+                    <td>FAQs</td>
+                </tr>
+                <tr>
+                    <td>In-Store Menu</td>
+                    <td>My Account</td>
+                </tr>
+                <tr>
+                    <td>Nutritional Information</td>
+                    <td>Store Locator</td>
+                </tr>
+                <tr>
+                    <td>Sustainability</td>
+                    <td>Shipping & Delivery</td>
+                </tr>
+                <tr>
+                    <td>Shop Coffee Online</td>
+                    <td>Returns</td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer-icon">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="design-by">
+            <p> © 2021 Gloria Jean's Gourmet Coffees Corp. | Designed by Sameeha M33r</p>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

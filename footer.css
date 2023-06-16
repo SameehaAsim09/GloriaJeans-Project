@@ -1,0 +1,83 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 570px;    
+    background-color: rgb(68, 21, 21);
+}
+.logo-sec{
+    height: 500px;
+}
+.gloria-logo{
+    width: 350px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.est{
+    margin-top: 20px;
+    margin-left: 80px;
+    color: white;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.logo-sec h3{
+    margin-top: 60px;
+    margin-left: 80px;
+    color: white;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.payment{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.table-sec{
+   height: 500px;
+}
+table{
+    width: 70%;
+}
+th{
+    width: 600px;
+    height: 50px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+td{
+    font-family: Montserrat,sans-serif;
+    font-size: 15px;
+    padding: 3px;
+}
+.center-table{
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 100px;
+    color: white;
+}
+.footer-icon{
+    height: 70px;
+}
+.footer-icon i{
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: .5s;
+}
+.footer-icon i:hover{
+    transform: translateY(-30%);
+    color: #f3f3f4;
+    transition: all 0.5s ease-in-out;
+}
+.design-by{
+    height: 70px;
+}
+.design-by p{
+    color: white;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 500;
+}
